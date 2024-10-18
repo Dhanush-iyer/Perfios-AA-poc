@@ -1,0 +1,26 @@
+.snackbar_container {
+border-radius : 4px;
+background-color : #FF7F7F;
+margin : 24px;
+}       
+.snackbar_wrapper{
+    display : flex; 
+    justify-content : space-between; 
+    margin-left : 24px;
+    margin-right : 24px;
+    padding : 16px;
+}
+.content{
+    display :flex;
+    justify-content:center;
+    align-items:center;
+    height : 100vh;
+}
+.errMessage{
+    text-align : center;
+    color :  white;
+}
+.closeIcon{
+    cursor : pointer;
+     color:white;
+}
