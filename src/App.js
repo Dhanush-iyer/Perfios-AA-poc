@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import HomeScreen from './screens/homeScreen';
+import Layout from './routes';
 
-function App() {
+function App() {  
   return (
-    <div >
-    <HomeScreen />     
+    <div >     
+         <Layout />
     </div>
   );
 }
