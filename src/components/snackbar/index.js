@@ -1,23 +1,23 @@
 import React, { useState } from "react";
-import useErrorContextData from "../../hooks/useErrorContext";
+// import useErrorContextData from "../../hooks/useErrorContext";
 import "./style.css";
 
 const Snackbar = (props) => {
   const { handleClose} = props;
-  const errorDetails = useErrorContextData();
+  // const errorDetails = useErrorContextData();
 
   return (
     <div>
-      {errorDetails && errorDetails.error? (
+      {/* {errorDetails && errorDetails.error? ( */}
         <div className="snackbar_container">
           <div className="snackbar_wrapper">
-            <div className="errMessage">{errorDetails.error}</div>
+            <div className="errMessage">Something went wrong</div>
             <div className="closeIcon" onClick={handleClose}>
               Close
             </div>
           </div>
         </div>
-      ) : null}
+      {/* ) : null} */}
     </div>
   );
 };

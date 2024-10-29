@@ -3,7 +3,7 @@ import React from "react";
 const ProductScreen = () => {
     return(
         <div>
-            Inside product screen!
+            Inside product screen!!
         </div>
     )
 }
